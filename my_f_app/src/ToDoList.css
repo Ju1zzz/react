@@ -1,0 +1,62 @@
+.todo-wrapper{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: xx-large;
+   padding: 10px;
+   width: 50%;
+   margin: 0 auto;
+   background-color: rgb(221, 105, 245);
+   border: 5px dashed rgb(139, 1, 109);
+}
+
+.todo-wrapper .list{
+    list-style-type: none;
+    padding: 2;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.todo-wrapper .task{
+    border-color: rgb(177, 71, 71);
+    border-style: none none dotted none;
+    margin-bottom:  5px;
+    padding: 4px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    transition: 0.4s;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.todo-wrapper .task .title{
+    max-width: 75%;
+}
+
+.todo-wrapper .task.task-done .title{
+    color: rgb(16, 53, 5);
+    text-decoration: line-through;
+}
+
+.todo-wrapper .task:hover{
+    
+    background-color: blueviolet;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    margin-bottom: 5px;
+}
+
+.dbtn{
+    margin: 5px;
+    color: brown;
+    transition: 0.4s;
+}
+
+.dbtn:hover{
+    background-color: rgb(185, 8, 8);
+    color: white;
+    outline: 2px solid white;
+}
+
+
+
+

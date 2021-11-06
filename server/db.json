@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Ivan Ivanov"
+    },
+    {
+      "title": "health",
+      "author": "Greg Somers",
+      "id": 2
+    },
+    {
+      "title": "sport",
+      "author": "Selena Kyle",
+      "id": 3
+    },
+    {
+      "title": "political news",
+      "author": "Adam Jones",
+      "id": 4
+    },
+    {
+      "title": "programming",
+      "author": "David Hopper",
+      "id": 6
+    },
+    {
+      "title": "machine learning",
+      "author": "Steve Bones",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Ivan Ivanov"
+  }
+}

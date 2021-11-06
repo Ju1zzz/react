@@ -1,0 +1,36 @@
+.menu{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 5px dashed rgb(54, 133, 74);
+    background-color: rgba(224, 219, 219, 0.973);
+    display: flex;
+    
+
+ ul{
+     margin: 0 auto;
+     padding: 0;
+     list-style-type: none;
+     display: flex;
+
+  li{
+    padding: 10px 5px;
+    background-color: rgb(33, 134, 138);
+    margin-right: 10px;
+    transition: 0.4s;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: white;
+        color: rgb(255, 0, 170);
+    }
+  
+   a{
+       color: rgb(32, 12, 16);
+       font-family: 'Times New Roman', Times, serif;
+       text-decoration: none;  
+       
+   }
+  }
+ }
+}
